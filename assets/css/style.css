@@ -1,13 +1,19 @@
 h1 {
     color: #ffffff;
     background: #4aaaa5;
-    border: #cccccc;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 2px solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
     color: #4aaaa5;
-    background: #ffffff;
+    background:#ffffff;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #cccccc;
+    font-size: 25pt;
 }
 
 p {
