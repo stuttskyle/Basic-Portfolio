@@ -5,7 +5,7 @@
     border-bottom: 2px solid #cccccc;
 }
 
-.header a {
+.header :not(h1) a {
     float: left;
     color: #777777;
     text-align: center;
@@ -17,12 +17,12 @@
 }
 
 .header a.Name {
+    float: left;
     color: #ffffff;
     background: #4aaaa5;
     padding: 20px;
     border: 1px solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: relative;
     text-align: center;
 }
 
@@ -32,12 +32,12 @@
     padding-bottom: 30px;
 }
 
-.header a:hover {
+.header :not(h1) a:hover {
     background-color: #ddd;
     color: black;
 }
 
-.header a:active {
+.header :not(h1) a:active {
     background-color: dodgerblue;
     color: white;
 }
@@ -78,4 +78,5 @@ p {
 
 body {
     background-image: url("../images/Background.png");
+    margin: 0;
 }
