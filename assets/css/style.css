@@ -9,7 +9,7 @@
     float: left;
     color: #777777;
     text-align: center;
-    padding: 12px;
+    padding: 0px 12px;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
@@ -29,7 +29,9 @@
 .header-right {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
 }
 
 .header :not(h1) a:hover {
