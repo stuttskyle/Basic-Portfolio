@@ -1,5 +1,5 @@
 .header {
-    overflow: hidden;
+    overflow: auto;
     background-color: #ffffff;
     border-color: #cccccc;
     border-bottom: 2px solid #cccccc;
@@ -9,7 +9,6 @@
     float: left;
     color: #777777;
     text-align: center;
-    padding-left: 12px;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
@@ -97,8 +96,13 @@ body {
     margin: 0;
 }
 
-.About {
+.About, .Portfolio {
     border-right: 1px solid #cccccc;
+    padding: 0px 12px;
+}
+
+.Contact {
+    padding: 0px 12px;
 }
 
 .content {
