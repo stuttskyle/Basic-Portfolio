@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Contact Me</title>
@@ -25,10 +25,18 @@
 
             <h2>Contact Me</h2>
 
-                <p>
-                    Name
-                </p>
+                <form action="/action_page.php">
+                    <label for="name">Name</label>
+                    <input type="text" class="name" name="name" placeholder="Your name..">
+                
+                    <label for"email">Email</label>
+                    <input type="text" class="email" name="email" placeholder="example@gmail.com">
 
+                    <label for="message">Message</label>
+                    <textarea class="message" name="message" placeholder="Write something..."></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
         </div>
     </div>
 <footer class="footer">
