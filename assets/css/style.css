@@ -87,12 +87,15 @@ p {
 
 html,body {
     height: 100%;
+    max-width: 100%;
 }
 
 body {
     display: flex;
     background-image: url("../images/Background.png");
     margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .About, .Portfolio {
@@ -115,9 +118,11 @@ body {
     text-align: center;
     padding: 40px 0px 20px 0px;
     color:  #ffffff;
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
+    height: auto;
+    margin-top: auto;
 }
 
 .clearfix {
