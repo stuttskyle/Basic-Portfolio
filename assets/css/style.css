@@ -43,13 +43,13 @@
 }
 
 .header_inner {
-    width: 960px;
+    width: 940px;
     margin: 0px auto;
 }
 
 h1 {
     margin: 0 auto;
-    width: 960px;
+    width: 940px;
 }
 
 h2 {
@@ -59,7 +59,7 @@ h2 {
     border-bottom: 4px solid #cccccc;
     font-size: 25pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 960px;
+    width: 940px;
 }
 
 .parent-div{
@@ -71,7 +71,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     border: 1px solid #cccccc;
-    width: 960px;
+    width: 940px;
 }
 
 p { 
@@ -109,6 +109,7 @@ body {
 
 .content {
     flex: 1 0 auto;
+    min-height: calc(100vh - 70px);
 }
 
 .footer {
@@ -118,10 +119,8 @@ body {
     text-align: center;
     padding: 40px 0px 20px 0px;
     color:  #ffffff;
-    position: absolute;
     width: 100%;
     bottom: 0;
-    height: auto;
     margin-top: auto;
 }
 
@@ -153,7 +152,7 @@ input[type=submit] {
     height: 350px;
     width: 350px;
     float: left;
-    padding: 0px 65px 65px 65px;
+    padding: 0px 60px 60px 60px;
 }
 
 .folio-div {
@@ -163,7 +162,7 @@ input[type=submit] {
     padding-right: 20px;  
     padding-bottom: 1200px;  
     border: 1px solid #cccccc;
-    width: 960px;
+    width: 940px;
 }
 
 .pics {
@@ -183,26 +182,26 @@ input[type=submit] {
 }
 
 .texta {
-    top: 550px;
-    left: 283px;
+    top: 535px;
+    left: 349px;
 }
 
 .textb {
-    top: 550px;
-    left: 763px;
+    top: 535px;
+    left: 819px;
 }
 
 .textc {
-    top: 951px;
-    left: 283px;
+    top: 946px;
+    left: 349px;
 }
 
 .textd {
-    top: 951px;
-    left: 763px;
+    top: 946px;
+    left: 819px;
 }
 
 .texte {
-    top: 1371px;
-    left: 283px;
+    top: 1355px;
+    left: 349px;
 }
