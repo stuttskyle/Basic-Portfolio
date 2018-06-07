@@ -180,6 +180,7 @@ input[type=submit] {
     height: 20px;
     position: absolute;
     overflow: hidden;
+    font-size: 20px;
 }
 
 .texta {
