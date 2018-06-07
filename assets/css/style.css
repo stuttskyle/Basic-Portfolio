@@ -163,6 +163,7 @@ input[type=submit] {
     padding-bottom: 1200px;  
     border: 1px solid #cccccc;
     width: 940px;
+    position: relative;
 }
 
 .pics {
@@ -174,7 +175,7 @@ input[type=submit] {
     color: #ffffff;
     background-color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
-    width: 311px;
+    width: 310px;
     text-align: center;
     height: 20px;
     position: absolute;
@@ -182,26 +183,26 @@ input[type=submit] {
 }
 
 .texta {
-    top: 535px;
-    left: 349px;
+    top: 417px;
+    left: 80px;
 }
 
 .textb {
-    top: 535px;
-    left: 819px;
+    top: 417px;
+    left: 550px;
 }
 
 .textc {
-    top: 946px;
-    left: 349px;
+    top: 827px;
+    left: 80px;
 }
 
 .textd {
-    top: 946px;
-    left: 819px;
+    top: 827px;
+    left: 550px;
 }
 
 .texte {
-    top: 1355px;
-    left: 349px;
+    top: 1237px;
+    left: 80px;
 }
